@@ -22,8 +22,7 @@ public class PostServiceImplementation implements PostService{
 
 	@Override
 	public List<Post> fetchAllPosts() {
-		// TODO Auto-generated method stub
-		return null;
+		return postRepo.findAll();
 	}
 
 }
